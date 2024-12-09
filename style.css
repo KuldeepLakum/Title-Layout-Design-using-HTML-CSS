@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.a1{
+    background-color: red;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.a2{
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.mid{
+    display: flex;
+}
+.mid .m1{
+    background-color: red;
+    width: 1200px;
+    height: 500px;
+    border: 0.5px solid black;
+}
+.mid .m1 .pm1{
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border: 0.5px solid black;
+    /* border: 2px solid black; */
+}
+.mid .m1 .pm2{
+    border: 0.5px solid black;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* border: 2px solid black; */
+}
+.m1{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.m2{
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    font-weight: bold;
+
+}
+
+.m2 .mm2{
+    margin-top:20px ;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 129px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
